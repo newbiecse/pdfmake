@@ -111,12 +111,12 @@ $(function () {
                 ''
               ],
               [ 
-                { colSpan: 4, rowSpan: 1, text: 'Personnel participating in the inspection:'},
+                { colSpan: 4, rowSpan: 1, text: 'Personnel participating in the inspection:' },
                 '',
                 '',
                 '' 
               ],
-              [ 'Kent Sanborn', '6EN­WR', 'EPA Inspector', '918­557­1615' ],
+              [ 'Kent Sanborn', '6EN­WR', 'EPA Inspector', '918-557-1615' ],
               [ 'N/A', 'N/A', 'N/A', '9187984511' ],
               [ 'N/A', 'N/A', 'N/A', 'N/A' ],
               [ 'N/A', 'N/A', 'N/A', 'N/A' ],
@@ -127,7 +127,19 @@ $(function () {
               [ 'N/A', 'N/A', 'N/A', 'N/A' ],
               [ 'N/A', 'N/A', 'N/A', 'N/A' ],
               [ 'N/A', 'N/A', 'N/A', 'N/A' ],
-              [ 'N/A', 'N/A', 'N/A', 'N/A' ]
+              [ 'N/A', 'N/A', 'N/A', 'N/A' ],
+              [ 
+                { colSpan: 1, text: 'EPA Lead Inspector \n Signature/Date' }, 
+                { colSpan: 2, text: 'Kent Sanborn' },
+                '',
+                { colSpan: 1, text: 'Date' }
+              ],
+              [ 
+                { colSpan: 1, text: 'Supervisor Signature/Date' }, 
+                { colSpan: 2, text: 'WILLIE LANE' },
+                '',
+                { colSpan: 1, text: 'Date' }
+              ]                   
             ]
         }
 
