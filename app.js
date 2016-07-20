@@ -18,15 +18,14 @@ $(function () {
               [ 'Mailing Address:', 'P.O. Box 737' ],
               [ '(city, state, zip code)', 'Collinsville, OK 74021' ],           
               [ 'County/Parish:', 'Osage County' ],
-              [ 'Facility Contact', [{
-                  table: {
-                    widths: [ '100%'],
-                    body: [
-                      ['Gary Lewis II (918)798­4511'],
-                      ['N/A']
-                    ]                    
-                  }
-              }]]
+              [ { colSpan: 1, rowSpan: 2, text: 'Facility Contact' }, 'Gary Lewis II (918)798­4511' ],
+              [ '', 'N/A' ],
+              [ 'FRS Number:', 'N/A' ],
+              [ 'Identification/Permit Number:', 'N/A' ],
+              [ 'Media Number:', 'N/A' ],
+              [ 'NAICS:', '21111' ],
+              [ 'SIC:', '1311' ],
+              [ { colSpan: 2, rowSpan: 1, text: 'Personnel participating in the inspection:'}, '' ]
             ]
         }
 
