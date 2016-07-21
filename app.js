@@ -228,8 +228,7 @@ $(function () {
 
         var docDefinition = {
           header: [
-            { text: 'Region 6 Compliance Assurance and Enforcement Division', fontSize: 8, bold: true,  alignment: 'center' },
-            { text: 'INSPECTION REPORT', fontSize: 15, bold: true, alignment: 'center', margin: [ 0, 10, 0, 20 ] }
+            { text: 'Region 6 Compliance Assurance and Enforcement Division', fontSize: 8, bold: true, alignment: 'center', margin: [ 0, 30, 0, 10 ] }            
           ],
 
           footer: {
@@ -240,7 +239,8 @@ $(function () {
           },
 
           content: [
-            { table: tbl, margin: [ 0, 30, 0, 20 ], fontSize: 8 }
+            { text: 'INSPECTION REPORT', fontSize: 15, bold: true, alignment: 'center', margin: [ 0, 10, 0, 10 ] },
+            { table: tbl, margin: [ 0, 20, 0, 20 ], fontSize: 8 }
           ]
 
         };
