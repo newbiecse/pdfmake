@@ -69,9 +69,9 @@ $(function () {
               ],
               [ 
                 { colSpan: 1, rowSpan: 2, text: 'Facility Contact' },
-                { colSpan: 1, text: 'N/A' },
                 { colSpan: 2, text: 'N/A' },
-                ''
+                '',
+                { colSpan: 1, text: 'N/A' }
               ],
               [ 
                 '',
@@ -79,6 +79,36 @@ $(function () {
                 '',
                 ''
               ],
+              [
+                { colSpan: 1, text: 'FRS Number:' },
+                { colSpan: 3, text: 'N/A' },
+                '',
+                ''
+              ],
+              [
+                { colSpan: 1, text: 'Identification/Permit Number:' },
+                { colSpan: 3, text: 'N/A' },
+                '',
+                ''
+              ],
+              [
+                { colSpan: 1, text: 'Media Number:' },
+                { colSpan: 3, text: 'N/A' },
+                '',
+                ''
+              ],
+              [
+                { colSpan: 1, text: 'NAICS:' },
+                { colSpan: 3, text: '21111' },
+                '',
+                ''
+              ],
+              [
+                { colSpan: 1, text: 'SIC:' },
+                { colSpan: 3, text: '1311' },
+                '',
+                ''
+              ],                                                                      
               [ 
                 { text: 'Facility Representatives:', rowSpan: 4 },
                 { text: 'N/A' },
@@ -144,7 +174,55 @@ $(function () {
                 { text: 'N/A' },
                 { text: 'N/A' },
                 { text: 'N/A' }              
-              ]              
+              ],
+              [ 
+                { colSpan: 1, text: 'Title:' },
+                { colSpan: 3, text: 'Jet-Star Co. Karl Mertang A lease Wichita Falls Wichita Texas' },
+                '',
+                ''
+              ],
+              [ 
+                { colSpan: 1, text: 'Author:' },
+                { colSpan: 3, text: 'US EPA Region 6 Compliance Assurance and Enforcement Division Dallas TX' },
+                '',
+                ''
+              ],
+              [ 
+                { colSpan: 1, text: 'Subject:' },
+                { colSpan: 3, text: 'Safe Drinking Water Act SDWA' },
+                '',
+                ''
+              ],
+              [ 
+                { colSpan: 1, text: 'Keywords:' },
+                { colSpan: 3, text: 'Underground Injection Control Groundwater Brine Injection Well Oil Gas' },
+                '',
+                ''
+              ],
+              [ 
+                { colSpan: 1, rowSpan: 2, text: 'EPA Lead Inspector \nSignature/Date' },
+                { colSpan: 2, text: ' ' },
+                { colSpan: 1, text: ' ' },
+                ''
+              ],
+              [ 
+                '',
+                { colSpan: 2, text: 'Kent Sanborn' },
+                '',
+                { colSpan: 1, text: 'Date' }
+              ],
+              [ 
+                { colSpan: 1, rowSpan: 2, text: 'Supervisor \nSignature/Date' },
+                { colSpan: 2, text: ' ' },
+                { colSpan: 1, text: ' ' },
+                ''
+              ],
+              [ 
+                '',
+                { colSpan: 2, text: 'Willie Lane Jr., Chief, Water Resources Section(6EN-WR)' },
+                '',
+                { colSpan: 1, text: 'Date' }
+              ]
             ]
         }
 
