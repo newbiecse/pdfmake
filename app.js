@@ -232,10 +232,10 @@ $(function () {
                 ''
               ],
               [ 
-                { colSpan: 2, rowSpan: 2, text: 'EPA Lead Inspector \nSignature/Date' },
+                { colSpan: 2, rowSpan: 2, text: 'EPA Lead Inspector \n\nSignature/Date' },
                 '',
-                { colSpan: 2, text: ' ' },
-                { colSpan: 1, text: ' ' },
+                { colSpan: 2, rowSpan: 1, text: ' \n ' },
+                { colSpan: 1, rowSpan: 1, text: ' \n ' },
                 ''
               ],
               [ 
